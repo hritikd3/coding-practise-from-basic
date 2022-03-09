@@ -7,7 +7,7 @@ function charCount(str) {
   let result = {};
   // loop over the string
   for (i = 0; i < str.length; i++) {
-    let char = str[i];
+    let char = str[i].toLowerCase();
     // if char is number/letter and is in key so increament it
     if (result[char] > 0) {
       result[char]++;
