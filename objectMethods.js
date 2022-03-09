@@ -13,7 +13,7 @@ let array = {
   course: "BCA",
   rank: "100",
   isStudent: true,
-  favNo: [1, 2, 3],
+  favNo: [1, 2, 3]
 };
 Object.values(array);
 
