@@ -3,6 +3,8 @@
 
 let num=154;
 let sum=0;
+
+
 // passing num in temp variable
 let temp=num;
 
@@ -10,7 +12,7 @@ while(temp>0){
     let rem= temp%10;
      sum += rem* rem* rem;
 
-    // convert into simgle int form
+    // convert into single integer form
      temp=parseInt(temp/10);
 }
 if(sum==num){
