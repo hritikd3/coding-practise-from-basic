@@ -12,14 +12,16 @@ function checkAnagram(first,second){
     // check if letter exist so increament , otherwise set it to 1
    lookup[letter] ? lookup[letter] += 1 : lookup[letter]=1;
     }
-    console.log(lookup);
+    // console.log(lookup);
     for(let i=0; i< second.length;i++){
         let letter=second[i];
+        console.log(lookup);
 //can't find the ltter or ltter is zero then its not a anagram
         if(!lookup[letter])
         return false
         else
         lookup[letter]-= 1;
+        
         
     }
     return true;
