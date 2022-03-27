@@ -10,4 +10,4 @@ return fib(n - 1) + fib(n - 2);
  // Fn-1 + Fn-2
 }
 
-console.log(fib(8))
+console.log(fib(7))
