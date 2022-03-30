@@ -20,3 +20,22 @@ function verify(n) {
   }
 }
 verify(0);
+
+// const x = 6%2; 
+// const y = x ? "One" : "Two";  //it will check if its 0 so print false because 0 is false and 1 true.
+// console.log(x) //0
+// console.log(y) //two
+// =========
+// var  j=1;
+// for (var j = 0; j < 5; j++) {
+//     setTimeout(()=>{
+
+//         console.log(j);
+//     },j*1000)
+// }
+// console.log(j);
+
+
+// var x;
+// var y = (x = 3) ? true : false;
+// console.log(y)
