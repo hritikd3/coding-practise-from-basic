@@ -8,7 +8,7 @@ for (let i = 0; i < array.length; i++) {
 console.log(sum)
 
 //array sum using Reduce() method 
-const arr = [1, 2, 3, 4];
+const arr = [1, 2, 3, 4,5];
 const reducer = (accumulator, curr) => accumulator + curr;
 console.log(arr.reduce(reducer));
 
