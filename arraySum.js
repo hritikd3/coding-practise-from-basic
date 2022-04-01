@@ -13,7 +13,7 @@ const reducer = (accumulator, curr) => accumulator + curr;
 console.log(arr.reduce(reducer));
 
 //using lodash library , it do has sum method that can easily add number in array
-var lodash = require("lodash");
-var array1 = [3, 6, 1, 5, 8,0,9,1];
-var summ = lodash.sum(array1);
-console.log(summ);
+// var lodash = require("lodash");
+// var array1 = [3, 6, 1, 5, 8,0,9,1];
+// var summ = lodash.sum(array1);
+// console.log(summ);
