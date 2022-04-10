@@ -11,7 +11,19 @@ function perfectSquare(n){
     let low=0, high=n;
 
     while(low <= high){
-        let mid= parseInt(low+high)/2;
-        if(mid*mid)
+        let mid= parseInt((low+high)/2);
+        if(mid*mid==n) {
+             return true;
+        }else if(mid *mid <n){
+            low=mid+1;
+        } else  {
+ high=mid-1;
+        }
     }
+    return false;
 }
+let n=25;
+if(perfectSquare(n))
+console.log("true")
+else
+console.log("false");
